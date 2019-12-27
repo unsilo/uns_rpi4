@@ -35,7 +35,7 @@ defmodule UnsRpi4.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "unsilo/#{@app}"}
+   #     {:github_releases, "unsilo/#{@app}"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
