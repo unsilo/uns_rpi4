@@ -47,3 +47,5 @@ enable_uart=1
 #dtoverlay=vc4-fkms-v3d
 #max_framebuffers=2
 
+#added to make sure usb disk spins up
+max_usb_current=1
